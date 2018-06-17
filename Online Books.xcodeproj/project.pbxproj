@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		2224033420D6AF5600B7127B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224033320D6AF5600B7127B /* AppDelegate.swift */; };
-		2224033620D6AF5600B7127B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224033520D6AF5600B7127B /* FirstViewController.swift */; };
-		2224033820D6AF5600B7127B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224033720D6AF5600B7127B /* SecondViewController.swift */; };
+		2224033620D6AF5600B7127B /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224033520D6AF5600B7127B /* ReadViewController.swift */; };
+		2224033820D6AF5600B7127B /* PickBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224033720D6AF5600B7127B /* PickBookViewController.swift */; };
 		2224033B20D6AF5600B7127B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2224033920D6AF5600B7127B /* Main.storyboard */; };
 		2224033D20D6AF5900B7127B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2224033C20D6AF5900B7127B /* Assets.xcassets */; };
 		2224034020D6AF5900B7127B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2224033E20D6AF5900B7127B /* LaunchScreen.storyboard */; };
 		2224034B20D6AF5900B7127B /* Online_BooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224034A20D6AF5900B7127B /* Online_BooksTests.swift */; };
 		2224035620D6AF5900B7127B /* Online_BooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224035520D6AF5900B7127B /* Online_BooksUITests.swift */; };
+		2224036420D6B29100B7127B /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224036320D6B29100B7127B /* MyData.swift */; };
+		223E372720D6CA5A00B2EDEB /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223E372620D6CA5A00B2EDEB /* SettingsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +39,8 @@
 /* Begin PBXFileReference section */
 		2224033020D6AF5600B7127B /* Online Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Online Books.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2224033320D6AF5600B7127B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2224033520D6AF5600B7127B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		2224033720D6AF5600B7127B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2224033520D6AF5600B7127B /* ReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
+		2224033720D6AF5600B7127B /* PickBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickBookViewController.swift; sourceTree = "<group>"; };
 		2224033A20D6AF5600B7127B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2224033C20D6AF5900B7127B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2224033F20D6AF5900B7127B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		2224035120D6AF5900B7127B /* Online BooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Online BooksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2224035520D6AF5900B7127B /* Online_BooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Online_BooksUITests.swift; sourceTree = "<group>"; };
 		2224035720D6AF5900B7127B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2224036320D6B29100B7127B /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
+		223E372620D6CA5A00B2EDEB /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				2224033320D6AF5600B7127B /* AppDelegate.swift */,
-				2224033520D6AF5600B7127B /* FirstViewController.swift */,
-				2224033720D6AF5600B7127B /* SecondViewController.swift */,
+				2224033520D6AF5600B7127B /* ReadViewController.swift */,
+				2224033720D6AF5600B7127B /* PickBookViewController.swift */,
+				223E372620D6CA5A00B2EDEB /* SettingsTableViewController.swift */,
 				2224033920D6AF5600B7127B /* Main.storyboard */,
 				2224033C20D6AF5900B7127B /* Assets.xcassets */,
 				2224033E20D6AF5900B7127B /* LaunchScreen.storyboard */,
 				2224034120D6AF5900B7127B /* Info.plist */,
+				2224036320D6B29100B7127B /* MyData.swift */,
 			);
 			path = "Online Books";
 			sourceTree = "<group>";
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2224033820D6AF5600B7127B /* SecondViewController.swift in Sources */,
+				2224033820D6AF5600B7127B /* PickBookViewController.swift in Sources */,
+				223E372720D6CA5A00B2EDEB /* SettingsTableViewController.swift in Sources */,
 				2224033420D6AF5600B7127B /* AppDelegate.swift in Sources */,
-				2224033620D6AF5600B7127B /* FirstViewController.swift in Sources */,
+				2224033620D6AF5600B7127B /* ReadViewController.swift in Sources */,
+				2224036420D6B29100B7127B /* MyData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

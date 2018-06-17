@@ -9,10 +9,18 @@
 import UIKit
 
 class FirstViewController: UIViewController {
-
+    @IBOutlet weak var content: UITextView!
+    @IBOutlet weak var titlelabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        content.text = MyData.sharedInstance.bookContent
+        titlelabel.text = MyData.sharedInstance.selectedBook
     }
 
 
